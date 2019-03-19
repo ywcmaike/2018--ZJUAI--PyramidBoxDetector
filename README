@@ -4,7 +4,7 @@ Ubuntu16.04
 pytorch0.3.1  torchvision numpy
 cuda cudnn等
 
-需要GPU 如Titan 4G等。
+需要GPU 如Titan 12G等。
 
 Test
 新建weights/, model文件在这里下载 通用模型: 
