@@ -7,7 +7,8 @@ cuda cudnn等
 需要GPU 如Titan 12G等。
 
 Test
-新建weights/, model文件在这里下载
+新建weights/, model文件在这里下载 通用模型: 
+our专用模型:https://www.dropbox.com/s/1juqirl88an2q8k/best_our_Res50_pyramid_aug.pth?dl=0
 1、将数据置于yuncong_test_set文件夹中，
 2、直接运行test_yuncong_*.py 可以得到对应的生成文件，更多的参数设置请看文件
 
