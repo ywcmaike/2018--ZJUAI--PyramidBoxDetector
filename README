@@ -1,0 +1,24 @@
+2018云从人头技术 冠军方案分享
+运行环境：
+Ubuntu16.04
+pytorch0.3.1  torchvision numpy
+cuda cudnn等
+
+需要GPU 如Titan 12G等。
+
+Test
+1、将数据置于yuncong_test_set文件夹中，
+2、直接运行test_yuncong_*.py 可以得到对应的生成文件，更多的参数设置请看文件
+
+train
+1 将数据放在当前目录下,即2018云从人头技术-...., 此目录下有Mall Part_A 等场景的原始数据,你可以相应的调整,但原来的代码文件路径可能需要相应的调整.
+2 数据增强,对每个场景都有对应的数据增强,由于之前使用的是paddlepaddle版本的pyramidbox的数据格式,需要调用一下topytorch.py来生成pytorch版本的数据格式,可以自己去调整.  最后对每个场景生成训练的数据文件集如: cat UCSD.txt augfile_UCSD > final_UCSD.txt
+3 然后可以进行训练, 可生成通用的模型,也可对应场景的模型, mod/parta/partb/mall/ucsd/our等. 运行相应的代码即可.
+
+最近在赶deadline,更多训练的步骤,后续将更详细的给出.
+如有疑问，请联系我
+微信： 13032893650
+手机： 13032893650
+
+
+
