@@ -5,7 +5,8 @@ pytorch0.3.1  torchvision numpy
 cuda cudnn等
 
 需要GPU 如Titan 12G等。
-
+--resume', default="./pretrained_model/Res50_pyramid.pth"
+链接:https://pan.baidu.com/s/13Uf1uWSi-aMbNsbzUDl5Gg 密码:yy73
 Test
 新建weights/, model文件在这里下载 
 通用模型: 链接：https://pan.baidu.com/s/1hDGi02UsHplftYFpfcAvpw    提取码：9xk1 
